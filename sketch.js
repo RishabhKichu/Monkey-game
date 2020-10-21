@@ -96,7 +96,7 @@ function spawnBananas(){
     banana.addImage(bananaImage);
     banana.lifetime=170;
     banana.velocityX=-4;
-    banana.scale=0.1;
+    banana.scale=0.07;
     bananaGroup.add(banana);
   }
 }
