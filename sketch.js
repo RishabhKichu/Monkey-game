@@ -78,8 +78,8 @@ function draw() {
   
   if(monkey.isTouching(obstacleGroup)){
     gameState=end;
-    obstacleGroup.setVelocityEach(0);
-    bananaGroup.setVelocityEach(0);
+    obstacleGroup.setVelocityEachX(0);
+    bananaGroup.setVelocityEachX(0);
     obstacleGroup.setLifetimeEach(-1);
     bananaGroup.setLifetimeEach(-1);
     
